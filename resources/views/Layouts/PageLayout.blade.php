@@ -18,43 +18,35 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <i class="fa-solid fa-pen-to-square" style="color: #FFD43B;"></i>
-                    บ้านเป็ด.com
+                    <h2> <i class="fa-solid fa-pen-to-square" style="color: #FFFF;"></i> บ้านเป็ด.com </h2>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">หน้าหลัก</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">ร้องเรียน</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#">เกี่ยวกับ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">ติดต่อ</a>
                         </li>
                     </ul>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <button type="button" class="btn btn-light"> <i class="fa-solid fa-user"
+                                    style="color: #74C0FC;"></i> &nbsp; เข้าสู่ระบบ</button>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -66,7 +58,14 @@
     </main>
 
     <footer>
-        Footer
+        <footer class="bg-dark text-light text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2020 Copyright:
+                <a class="text-body" style="background-color: rgba(0, 0, 0, 0.05);" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
