@@ -43,8 +43,8 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <button type="button" class="btn btn-light"> <i class="fa-solid fa-user"
-                                    style="color: #74C0FC;"></i> &nbsp; เข้าสู่ระบบ</button>
+                            <button type="button" class="btn btn-light"> <i class="fa-solid fa-circle-user"
+                                    style="color: #74C0FC;"></i> เข้าสู่ระบบ</button>
                         </li>
 
                     </ul>
@@ -61,8 +61,7 @@
         <footer class="bg-dark text-light text-center text-lg-start">
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2020 Copyright:
-                <a class="text-body" style="background-color: rgba(0, 0, 0, 0.05);" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                © 2020 Copyright: บ้านเป็ด.com
             </div>
             <!-- Copyright -->
         </footer>
