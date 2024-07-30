@@ -10,6 +10,7 @@ Route::get('home', function () {
     return view('HomePage');
 });
 
-Route::get('Page', function () {
-    return view('Layouts.PageLayout');
+
+Route::get('Login', function(){
+    return view('Login & Register.Login');
 });

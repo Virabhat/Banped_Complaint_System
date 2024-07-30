@@ -43,8 +43,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <button type="button" class="btn btn-light"> <i class="fa-solid fa-circle-user"
-                                    style="color: #74C0FC;"></i> เข้าสู่ระบบ</button>
+                            <a href="{{ url('Login') }}">
+                                <button type="button" class="btn btn-light rounded-pill"> <i class="fa-solid fa-circle-user"
+                                        style="color: #74C0FC;"></i> เข้าสู่ระบบ</button>
+                            </a>
                         </li>
 
                     </ul>
@@ -70,6 +72,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    
+
+
 </body>
 
 </html>
