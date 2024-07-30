@@ -15,7 +15,7 @@
 }
 
 footer {
-    position: fixed;
+    position: flex;
     bottom: 0px;
     width: 100%;
     color: white;
