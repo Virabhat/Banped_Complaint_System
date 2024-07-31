@@ -9,17 +9,32 @@
 
 
 @section('content')
-<div class="container d-flex justify-content-center p-5">
-    <div class="card border border-secondary w-75">
-        <div class="card-header">
-            <h4> <i class="fa-solid fa-circle-user" style="color: #74C0FC;"></i> Login &nbsp; : &nbsp;เข้าสู่ระบบ</h4>
+<div class="container">
+    <div class="card card-form">
+        <div class="card-header bg-primary text-white text-center">
+            <h3> <i class="fa-solid fa-circle-user" style="color: #74C0FC;"></i> Login : เข้าสู่ระบบ</h3>
         </div>
         <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <form action="#" method="POST" enctype="multipart/form-data">
+              @csrf
+                <div class="form-group">
+                    <label for="email"><i class="fa-solid fa-envelope" style="color: #74C0FC;"></i> : อีเมล</label>
+                    <br><br>
+                    <input type="email" class="form-control" id="email" placeholder="อีเมล">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="password"><i class="fa-solid fa-lock" style="color: #74C0FC;"></i> : รหัสผ่าน</label>
+                    <br><br>
+                    <input type="password" class="form-control" id="password" placeholder="รหัสผ่าน">
+                </div>
+                <br>
+                <a href="register">ยังไม่มีบัญชี &nbsp; สมัครสมาชิก?</a>
+                <br><br>
+                <button type="submit" class="btn btn-primary btn-block ms-auto"> <i class="fa-solid fa-right-to-bracket"
+                        style="color: #74C0FC;"></i> &nbsp; เข้าสู่ระบบ</button>
+            </form>
         </div>
     </div>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
 @endsection
