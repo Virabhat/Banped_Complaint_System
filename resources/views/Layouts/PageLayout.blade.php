@@ -24,28 +24,14 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">หน้าหลัก</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ร้องเรียน</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">เกี่ยวกับ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">ติดต่อ</a>
-                        </li>
-                    </ul>
-                </div>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a href="{{ url('Login') }}">
-                                <button type="button" class="btn btn-light rounded-pill"> <i class="fa-solid fa-circle-user"
-                                        style="color: #74C0FC;"></i> เข้าสู่ระบบ</button>
+                                <button type="button" class="btn btn-light rounded-pill"> <i
+                                        class="fa-solid fa-circle-user" style="color: #74C0FC;"></i>
+                                    เข้าสู่ระบบ</button>
                             </a>
                         </li>
 
@@ -63,16 +49,28 @@
         <footer class="bg-dark text-light text-center text-lg-start">
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2020 Copyright: บ้านเป็ด.com
+                ระบบร้องเรียนปัญหาในชุมชนบ้านเป็ด.com
             </div>
             <!-- Copyright -->
         </footer>
     </footer>
 
+    <!-- เชื่อมต่อ jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- เชื่อมต่อ Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <!-- เชื่อมต่อ Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- เชื่อมต่อ Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <!-- เชื่อมต่อ Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    
+
 
 
 </body>

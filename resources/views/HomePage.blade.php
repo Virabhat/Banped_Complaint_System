@@ -9,45 +9,180 @@
 
 @section('content')
 
-<div class="container">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-6/425677375_786212486885009_8006485030951255416_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFbTu0DP8cXANMwPSaxgPYAumUkX2-S8OS6ZSRfb5Lw5CrD4Sm53cHVb3ssrx371OG3CAaVeiv_XMRsftEwiiD3&_nc_ohc=MUn6OTfZ0R8Q7kNvgEuNZFT&_nc_ht=scontent-sin6-3.xx&oh=00_AYAyWI9NoequmO_xudNECqhp185FTgbLceuGgh-mmePLHg&oe=66AC4CB4" alt="First slide">
+<div class="container my-5">
+    <div class="card">
+        <div class="card-header">
+            <i class="fa-solid fa-bullhorn"></i> ร้องเรียนล่าสุด
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">ร้องเรียนปัญหาที่ 1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam enim tempora eum
+                mollitia consequuntur animi, placeat quo, commodi sapiente similique neque rem, ex suscipit delectus
+                facilis porro. Fugit, non odit?</p>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 18rem">
+                    <div class="card-header"> Header </div>
+                    <div class="card-body text-primary">
+                        <h5 class="card-title">วันที่ 10/12/2567</h5>
+                        <!-- <img src="https://images.unsplash.com/photo-1728388939226-3fc095526a91?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" width="250px" class="rounded"> -->
+                        <div class="carousel-picture">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="https://images.unsplash.com/photo-1726138087393-dd09fe4b60ce?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://images.unsplash.com/photo-1726519160765-5c8f674eda1d?q=80&w=2023&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://images.unsplash.com/photo-1726519161022-61bbcce396ca?q=80&w=2023&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Third slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="card-body-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore, dolorum
+                            mollitia quisquam, cum repellendus delectus, quasi ex sapiente omnis veritatis autem eum?
+                            Deleniti natus commodi neque. Illo, earum eaque.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-6/425677375_786212486885009_8006485030951255416_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFbTu0DP8cXANMwPSaxgPYAumUkX2-S8OS6ZSRfb5Lw5CrD4Sm53cHVb3ssrx371OG3CAaVeiv_XMRsftEwiiD3&_nc_ohc=MUn6OTfZ0R8Q7kNvgEuNZFT&_nc_ht=scontent-sin6-3.xx&oh=00_AYAyWI9NoequmO_xudNECqhp185FTgbLceuGgh-mmePLHg&oe=66AC4CB4" alt="First slide">
+            <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 18rem">
+                    <div class="card-header"> Header </div>
+                    <div class="card-body text-primary">
+                        <h5 class="card-title">วันที่ 10/12/2567</h5>
+                        <img src="https://images.unsplash.com/photo-1728388939226-3fc095526a91?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" width="250px">
+                        <hr>
+                        <p class="card-body-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore, dolorum
+                            mollitia quisquam, cum repellendus delectus, quasi ex sapiente omnis veritatis autem eum?
+                            Deleniti natus commodi neque. Illo, earum eaque.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-6/425677375_786212486885009_8006485030951255416_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFbTu0DP8cXANMwPSaxgPYAumUkX2-S8OS6ZSRfb5Lw5CrD4Sm53cHVb3ssrx371OG3CAaVeiv_XMRsftEwiiD3&_nc_ohc=MUn6OTfZ0R8Q7kNvgEuNZFT&_nc_ht=scontent-sin6-3.xx&oh=00_AYAyWI9NoequmO_xudNECqhp185FTgbLceuGgh-mmePLHg&oe=66AC4CB4" alt="First slide">
+            <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 18rem">
+                    <div class="card-header"> Header </div>
+                    <div class="card-body text-primary">
+                        <h5 class="card-title">วันที่ 10/12/2567</h5>
+                        <img src="https://images.unsplash.com/photo-1728388939226-3fc095526a91?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" width="250px">
+                        <hr>
+                        <p class="card-body-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore, dolorum
+                            mollitia quisquam, cum repellendus delectus, quasi ex sapiente omnis veritatis autem eum?
+                            Deleniti natus commodi neque. Illo, earum eaque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 18rem">
+                    <div class="card-header"> Header </div>
+                    <div class="card-body text-primary">
+                        <h5 class="card-title">วันที่ 10/12/2567</h5>
+                        <img src="https://images.unsplash.com/photo-1728388939226-3fc095526a91?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" width="250px">
+                        <hr>
+                        <p class="card-body-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore, dolorum
+                            mollitia quisquam, cum repellendus delectus, quasi ex sapiente omnis veritatis autem eum?
+                            Deleniti natus commodi neque. Illo, earum eaque.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-        
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 18rem">
+                    <div class="card-header"> Header </div>
+                    <div class="card-body text-primary">
+                        <h5 class="card-title">วันที่ 10/12/2567</h5>
+                        <img src="https://images.unsplash.com/photo-1728388939226-3fc095526a91?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" width="250px">
+                        <hr>
+                        <p class="card-body-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore, dolorum
+                            mollitia quisquam, cum repellendus delectus, quasi ex sapiente omnis veritatis autem eum?
+                            Deleniti natus commodi neque. Illo, earum eaque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 18rem">
+                    <div class="card-header"> Header </div>
+                    <div class="card-body text-primary">
+                        <h5 class="card-title">วันที่ 10/12/2567</h5>
+                        <img src="https://images.unsplash.com/photo-1728388939226-3fc095526a91?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" width="250px">
+                        <hr>
+                        <p class="card-body-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore, dolorum
+                            mollitia quisquam, cum repellendus delectus, quasi ex sapiente omnis veritatis autem eum?
+                            Deleniti natus commodi neque. Illo, earum eaque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 18rem">
+                    <div class="card-header"> Header </div>
+                    <div class="card-body text-primary">
+                        <h5 class="card-title">วันที่ 10/12/2567</h5>
+                        <img src="https://images.unsplash.com/photo-1728388939226-3fc095526a91?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" width="250px">
+                        <hr>
+                        <p class="card-body-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore, dolorum
+                            mollitia quisquam, cum repellendus delectus, quasi ex sapiente omnis veritatis autem eum?
+                            Deleniti natus commodi neque. Illo, earum eaque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 18rem">
+                    <div class="card-header"> Header </div>
+                    <div class="card-body text-primary">
+                        <h5 class="card-title">วันที่ 10/12/2567</h5>
+                        <img src="https://images.unsplash.com/photo-1728388939226-3fc095526a91?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" width="250px">
+                        <hr>
+                        <p class="card-body-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae inventore, dolorum
+                            mollitia quisquam, cum repellendus delectus, quasi ex sapiente omnis veritatis autem eum?
+                            Deleniti natus commodi neque. Illo, earum eaque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="container mt-3 bg-secondary rounded p-5">
-    <div class="jumbotron text-white text-center">
-        <h1 class="display-4"> <i class="fa-solid fa-pen-to-square"></i> บ้านเป็ด.Com</h1>
-        <p class="lead">
-            ระบบร้องเรียนปัญหาในชุมชนบ้านเป็ดปัญหา
-        </p>
-        <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="ค้นหา" aria-label="Search">
-            <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"
-                    style="color: #FFFF;"></i></button>
-        </form>
-        <br>
-    </div>
-    <br>
-</div>
+
 
 @endsection
