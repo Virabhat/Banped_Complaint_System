@@ -15,18 +15,18 @@
             <h3> <i class="fa-solid fa-circle-user" style="color: #74C0FC;"></i> Login : เข้าสู่ระบบ</h3>
         </div>
         <div class="card-body">
-            <form action="#" method="POST" enctype="multipart/form-data">
+            <form action="LoginCheck" method="POST" enctype="multipart/form-data">
               @csrf
                 <div class="form-group">
                     <label for="email"><i class="fa-solid fa-envelope" style="color: #74C0FC;"></i> : อีเมล</label>
                     <br><br>
-                    <input type="email" class="form-control" id="email" placeholder="อีเมล">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="อีเมล">
                 </div>
                 <br>
                 <div class="form-group">
                     <label for="password"><i class="fa-solid fa-lock" style="color: #74C0FC;"></i> : รหัสผ่าน</label>
                     <br><br>
-                    <input type="password" class="form-control" id="password" placeholder="รหัสผ่าน">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="รหัสผ่าน">
                 </div>
                 <br>
                 <a href="register">ยังไม่มีบัญชี &nbsp; สมัครสมาชิก?</a>
