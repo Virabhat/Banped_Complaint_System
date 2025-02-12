@@ -17,7 +17,7 @@ class AdminCheck
     public function handle(Request $request, Closure $next): Response
     {
         if (!auth()->check() || auth()->user()->userType !== 'admin') {
-            return redirect()->route('home')->with('error', 'You are not authorized to access this page.');
+            return redirect()->route('home')->with('error', 'คุณไม่ใช่เเอดมินเข้าไม่ได้');
            
         }
 
