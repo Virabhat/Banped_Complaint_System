@@ -17,7 +17,7 @@
     <Header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="home">
                     <h2> <i class="fa-solid fa-pen-to-square" style="color: #FFFF;"></i> บ้านเป็ด.com </h2>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -28,13 +28,14 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="{{ url('Login') }}">
-                                <button type="button" class="btn btn-light rounded-pill"> <i
-                                        class="fa-solid fa-circle-user" style="color: #74C0FC;"></i>
-                                    เข้าสู่ระบบ</button>
+                            <a href="Login" class="btn btn-light rounded-pill">
+                                <i class="fa-solid fa-circle-user" style="color: #74C0FC;"></i> เข้าสู่ระบบ
+                            </a>
+                            &nbsp;
+                            <a href="Register" class="btn btn-light rounded-pill">
+                                <i class="fa-solid fa-circle-user" style="color: #81efab;"></i> สมัครสมาชิก
                             </a>
                         </li>
-
                     </ul>
                 </div>
             </div>
@@ -68,8 +69,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 
 
 

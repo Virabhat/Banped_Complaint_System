@@ -16,6 +16,10 @@ Route::post('LoginCheck',[LoginController::class,'LoginCheck'])->name('LoginChec
 Route::get('Login', function(){
     return view('Login & Register.Login');
 });
+Route::get('Register', function(){
+    return view('Login & Register.Register');
+});
+
 
 Route::middleware('admin')->group(function(){
     Route::get('admin',[AdminController::class,'admin'])->name('admin');

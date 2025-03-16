@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <h2> <i class="fa-solid fa-pen-to-square" style="color: #FFFF;"></i> บ้านเป็ด.com </h2>
+                    <h2 class="screen"> <i class="fa-solid fa-pen-to-square" style="color: #FFFF;"></i> บ้านเป็ด.com </h2>
                 </a>
             </div>
         </nav>

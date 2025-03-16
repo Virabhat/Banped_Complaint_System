@@ -14,12 +14,13 @@
     height: 80px;
 }
 
-ร footer {
-    position: flex;
-    bottom: 0px;
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    color: white;
     text-align: center;
+    padding: 10px 0;
 }
 
 .navbar {
@@ -36,4 +37,18 @@
     max-width: 650px;
     margin: 50px auto;
     height: 500px;
+}
+
+div.login-screen{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.card{
+    width: 500px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

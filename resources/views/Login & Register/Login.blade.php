@@ -3,38 +3,51 @@
 @section('title', 'เข้าสู่ระบบบ้านเป็ด.com')
 
 @section('CssPage')
-<link rel="stylesheet" href="{{ asset('Css_Layouts/Login.css') }}">
+    <link rel="stylesheet" href="{{ asset('Css_Layouts/Login.css') }}">
 @endsection
 
 
 
 @section('content')
-<div class="container">
-    <div class="card card-form">
-        <div class="card-header bg-primary text-white text-center">
-            <h3> <i class="fa-solid fa-circle-user" style="color: #74C0FC;"></i> Login : เข้าสู่ระบบ</h3>
-        </div>
-        <div class="card-body">
-            <form action="LoginCheck" method="POST" enctype="multipart/form-data">
-              @csrf
-                <div class="form-group">
-                    <label for="email"><i class="fa-solid fa-envelope" style="color: #74C0FC;"></i> : อีเมล</label>
-                    <br><br>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="อีเมล">
-                </div>
-                <br>
-                <div class="form-group">
-                    <label for="password"><i class="fa-solid fa-lock" style="color: #74C0FC;"></i> : รหัสผ่าน</label>
-                    <br><br>
-                    <input type="password" class="form-control" id="password" name="password" placeholder="รหัสผ่าน">
-                </div>
-                <br>
-                <a href="register">ยังไม่มีบัญชี &nbsp; สมัครสมาชิก?</a>
-                <br><br>
-                <button type="submit" class="btn btn-primary btn-block ms-auto"> <i class="fa-solid fa-right-to-bracket"
-                        style="color: #74C0FC;"></i> &nbsp; เข้าสู่ระบบ</button>
-            </form>
+    <div class="login-screen mt-5">
+        <div class="card mt-5">
+            <div class="card-header text-center">
+                <h5><i class="fa-solid fa-square-pen"></i> เข้าสู่ระบบ บ้านเป็ด.com</h5>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="{{ route('LoginCheck') }}">
+                    @csrf
+                    <div class="form-group m-3">
+                        <label for="email"> <i class="fa-solid fa-user"></i> อีเมล</label>
+                        <input type="email" class="form-control mt-3" name="email" id="email" placeholder="อีเมล">
+                        @error('email')
+                            <div class="alert alert-danger" role="alert">
+                                <small class="text-danger">{{ $message }}</small>
+                            </div>
+                        @enderror
+                    </div>
+                    <div class="form-group m-3">
+                        <label for="password"> <i class="fa-solid fa-lock"></i> รหัสผ่าน</label>
+                        <input type="password" class="form-control mt-3" name="password" id="password"
+                            placeholder="รหัสผ่าน">
+                        @error('password')
+                            <div class="alert alert-danger" role="alert">
+                                <small class="text-danger">{{ $message }}</small>
+                            </div>
+                        @enderror
+                    </div>
+                    <div class="form-check m-3">
+                        <input type="checkbox" class="form-check-input" name="remember" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">จดจำฉัน</label>
+                    </div>
+                    <div class="text-center mt-5">
+                        <button type="submit" class="btn btn-primary">เข้าสู่ระบบ</button>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer text-center">
+                <a href="#">สมัครสมาชิก </a>
+            </div>
         </div>
     </div>
-</div>
 @endsection
